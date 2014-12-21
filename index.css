@@ -1,0 +1,51 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    background: url("img/bg.png");
+    font-family: Tahoma;
+    min-width: 280px;
+}
+
+.rotator
+{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.rotator img
+{
+    max-width: 100%;
+}
+
+.control
+{
+    margin: 10px auto;
+}
+
+a
+{
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    width: 90px;
+    background: #464847;
+    color: #F6F6F6;
+    text-decoration: none;
+    font-size: 12px;
+    border-radius: 4px;
+}
+
+a:hover
+{
+    background: #5E605F;
+}
+
+a:active
+{
+    background: #6D6F6E;
+}
