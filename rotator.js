@@ -14,7 +14,7 @@ app.directive('imagerotator', function(){
             };
 
             scope.rotateRight = function() {
-                ++i === 53? i = 0 : i;
+                ++i === 52? i = 1 : i;
                 scope.image = scope.images[i];
             };
 
